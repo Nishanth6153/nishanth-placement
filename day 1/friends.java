@@ -1,4 +1,3 @@
-
 /* This is a simple graph implementation to represent friendships */
 
 import java.util.ArrayList;
