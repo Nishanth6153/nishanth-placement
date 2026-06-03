@@ -16,7 +16,7 @@ public class JobScheduling {
                 totalProfit += profit[i];
 
                 System.out.println("Scheduled Job: " + jobs[i] + " with profit: " + profit[i]);
-                
+            
             }
         }
 
