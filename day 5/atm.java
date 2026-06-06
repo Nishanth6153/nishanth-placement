@@ -529,7 +529,7 @@ public class ATMProject1 {
                     if (current == null) {
                         System.out.println("Card Not Found");
                         break;
-                    }
+                    } 
 
                     if (current.locked) {
                         System.out.println("Account Locked");
