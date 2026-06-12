@@ -6,7 +6,7 @@ public class SlidingWindow {
 
         int sum = 0;
 
-        // First Window
+      
         for (int i = 0; i < k; i++) {
             sum += arr[i];
         }
@@ -15,7 +15,6 @@ public class SlidingWindow {
         System.out.println(arr[0] + " + " + arr[1] + " + " + arr[2] + " = " + sum);
         System.out.println();
 
-        // Remaining Windows
         int window = 2;
 
         for (int i = k; i < arr.length; i++) {
